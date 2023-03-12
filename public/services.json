@@ -1,0 +1,42 @@
+[
+    {
+      "id": "01",
+      "title": "Graphics Design full Class",
+      "img": "https://visme.co/blog/wp-content/uploads/2021/10/what-is-graphic-design-header-1200.png"
+    },
+    {
+      "id": "02",
+      "title": "Affilate Marketing Class",
+      "img": "https://d6xcmfyh68wv8.cloudfront.net/learn-content/uploads/2022/02/shutterstock_2007014807-scaled.jpg"
+    },
+    {
+      "id": "03",
+      "title": "Game Development Class",
+      "img": "https://www.arenaparkstreet.com/blog/wp-content/uploads/2021/05/Game-Development.png"
+    },
+    {
+      "id": "04",
+      "title": "Structural Programming Class",
+      "img": "https://onloadcode.com/wp-content/uploads/2020/12/Structured-programming-1000x563.png"
+    },
+    {
+      "id": "05",
+      "title": "Mathmatics Class",
+      "img": "https://atlantisrising.com/wp-content/uploads/2022/04/bloglimit-AI.jpg"
+    },
+    {
+      "id": "06",
+      "title": "Chemistry Class",
+      "img": "https://assets.ltkcontent.com/images/44568/chemistry-beakers_27c5571306.jpg"
+    },
+    {
+      "id": "07",
+      "title": "Networking Class",
+      "img": "https://www.microsoft.com/en-us/research/uploads/prod/2018/08/01_MSR_SIGCOMM_Data_Network_1400x788.png"
+    },
+    {
+      "id": "08",
+      "title": "Digital Forensic Class",
+      "img": "https://www.malwarebytes.com/blog/images/uploads/2017/08/shutterstock_442334347.jpg"
+    }
+  ]

@@ -1,12 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Carosel from './components/Body/Carosel/Carosel';
-import Headers from './components/Headers/Headers';
+import router from './Router/Routes/Routes';
 
 function App() {
   return (
     <div className="App">
-      <Headers/>
-      <Carosel/>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.container{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.carousel{
+    border: 2px solid #ccc;
+}
+
+.slider{
+    height: 100%;
+    display: flex;
+    width: 400%;
+    border: 1px solid red;
+}
+
+.slider section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
