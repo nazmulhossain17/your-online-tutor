@@ -15,11 +15,9 @@ const Carosel = () => {
        
     </div>
     <div className='absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2'>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-    </div>
-    <div className='absolute flex justify-start transform -translate-y-1/2 w-2/5 left-24 top-3/4'>
     <button className='btn btn-wide btn-outline btn-success mb-20 mx-auto'>My Services</button>
     </div>
+ 
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle">❮</a> 
       <a href="#slide2" className="btn btn-circle">❯</a>

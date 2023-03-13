@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Blog from "../../components/Blog/Blog";
+import Checkout from "../../components/Checkout/Checkout";
 import Classes from "../../components/Classes/Classes";
 import Home from "../../components/Home/Home";
 import Login from "../../components/Login/Login";
@@ -19,13 +20,9 @@ const router = createBrowserRouter([
             },
             {
                 path: '/services',
-                loader: (()=> fetch('services.json')),
+                loader: (()=> fetch('http://localhost:5001/services')),
                 element: <Services></Services>
             },
-            // {
-            //     path: '/classes',
-            //     element: <Classes></Classes>
-            // },
             {
                 path: '/blog',
                 element: <Blog></Blog>
@@ -37,6 +34,11 @@ const router = createBrowserRouter([
             {
                 path: '/signup',
                 element: <Signup></Signup>
+            },
+            {
+                path: '/checkout/:id',
+                element: <Checkout></Checkout>,
+                loader: ({params}) => fetch(`http://localhost:5001/services/${params.id}`)
             }
         ]
     }

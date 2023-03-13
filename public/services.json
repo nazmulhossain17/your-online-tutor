@@ -1,42 +1,56 @@
 [
     {
-      "id": "01",
       "title": "Graphics Design full Class",
-      "img": "https://visme.co/blog/wp-content/uploads/2021/10/what-is-graphic-design-header-1200.png"
+      "img": "https://visme.co/blog/wp-content/uploads/2021/10/what-is-graphic-design-header-1200.png",
+      "price": 23,
+      "summary": "We also learn the basics of Adobe Photoshop, illustrator and InDesign and do projects with real world applications."
     },
     {
-      "id": "02",
       "title": "Affilate Marketing Class",
-      "img": "https://d6xcmfyh68wv8.cloudfront.net/learn-content/uploads/2022/02/shutterstock_2007014807-scaled.jpg"
+      "img": "https://d6xcmfyh68wv8.cloudfront.net/learn-content/uploads/2022/02/shutterstock_2007014807-scaled.jpg",
+      "price": 40,
+      "summary": "I'll walk you through many affiliate sites like ClickBank, Amazon affiliate program called Amazon Associates, Shareasale, JVzoo, and a number of other affiliate sites."
     },
     {
-      "id": "03",
       "title": "Game Development Class",
-      "img": "https://www.arenaparkstreet.com/blog/wp-content/uploads/2021/05/Game-Development.png"
+      "img": "https://www.arenaparkstreet.com/blog/wp-content/uploads/2021/05/Game-Development.png",
+      "price": 60,
+      "summary": "Anyone who wants to learn to create games: Unity is a fantastic platform which enables you to make production-quality games. Furthermore these games can be created for Windows, MacOS, iOS, Android and Web from a single source!"
     },
     {
-      "id": "04",
       "title": "Structural Programming Class",
-      "img": "https://onloadcode.com/wp-content/uploads/2020/12/Structured-programming-1000x563.png"
+      "img": "https://onloadcode.com/wp-content/uploads/2020/12/Structured-programming-1000x563.png",
+      "price": 30,
+      "summary": "This course is perfect for absolute beginners with no previous coding experience, or anyone wanting to add C++ to their existing skillset. Anyone looking to increase career options by learning one the most in-demand programming languages."
     },
     {
-      "id": "05",
       "title": "Mathmatics Class",
-      "img": "https://atlantisrising.com/wp-content/uploads/2022/04/bloglimit-AI.jpg"
+      "img": "https://atlantisrising.com/wp-content/uploads/2022/04/bloglimit-AI.jpg",
+      "price": 20,
+      "summary": "Perfect for everyone who is in school or has just finished school and wants to prepare for university - Get the ultimate head-start!"
     },
     {
-      "id": "06",
       "title": "Chemistry Class",
-      "img": "https://assets.ltkcontent.com/images/44568/chemistry-beakers_27c5571306.jpg"
+      "img": "https://assets.ltkcontent.com/images/44568/chemistry-beakers_27c5571306.jpg",
+      "price": 45,
+      "summary": "This course will demystify Chemistry with tonnes of examples, work through exercises and take-home exercises. If you are dreaming of starting a STEM-based career, then this is for you. This course offers you the proper foundation and makes you stand out as a star student in Chemistry."
     },
     {
-      "id": "07",
       "title": "Networking Class",
-      "img": "https://www.microsoft.com/en-us/research/uploads/prod/2018/08/01_MSR_SIGCOMM_Data_Network_1400x788.png"
+      "img": "https://www.microsoft.com/en-us/research/uploads/prod/2018/08/01_MSR_SIGCOMM_Data_Network_1400x788.png",
+      "price": 75,
+      "summary": "This course is primarily designed for backend engineers who built applications, services or APIs and want to take their skillset to the next level. If you are a frontend engineer who are interested in the backend and have attempted to build backend apps before this course is also for you."
     },
     {
-      "id": "08",
       "title": "Digital Forensic Class",
-      "img": "https://www.malwarebytes.com/blog/images/uploads/2017/08/shutterstock_442334347.jpg"
+      "img": "https://www.malwarebytes.com/blog/images/uploads/2017/08/shutterstock_442334347.jpg",
+      "price": 160,
+      "summary": "This course is designed for anyone who wants to learn about digital forensics, computer forensics, and mobile forensics. Whether you are a beginner or an experienced professional, this course will provide you with the knowledge and skills necessary to become an expert in the field of digital forensics."
+    },
+    {
+      "title": "AWS Certified Solutions Architect Class",
+      "img": "https://i.ytimg.com/vi/JIbIYCM48to/maxresdefault.jpg",
+      "price": 300,
+      "summary": "With AWS becoming the centerpiece of today's modern IT architectures, I've decided it's time for students to learn how to be an AWS Solutions Architect Associate properly. So, let’s kick start the course! You are in good hands!"
     }
   ]
