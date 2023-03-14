@@ -12,7 +12,7 @@ const Classes = ({data}) => {
     <p>{summary}</p>
     <div className="card-actions justify-end">
       <Link to={`/checkout/${_id}`}>
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn btn-primary">See Details</button>
       </Link>
     </div>
   </div>
