@@ -7,6 +7,12 @@ import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 const Headers = () => {
   const { user, logOut } = useContext(AuthContext);
 
+  const handleLogOut = event =>{
+    logOut()
+    .then()
+    .catch();
+  }
+
     return (
         <div className="navbar bg-base-100">
   <div className="navbar-start bg-green">
@@ -27,7 +33,15 @@ const Headers = () => {
     <ul className="menu menu-horizontal px-1">
       <li><Link to='/'>Home</Link></li>
       <li><Link to='/services'>Services</Link></li>
-      <li><a>About</a></li>
+      {
+        user?.email ?
+            <>
+        <li className='font-semibold'><Link to='/orders'>Orders</Link></li>
+        </>
+        :
+        <></>
+        }
+      <li><Link to='/about'>About</Link></li>
       <li><Link to='/blog'>Blog</Link></li>
     </ul>
   </div>
@@ -35,7 +49,7 @@ const Headers = () => {
     {/* <Link to='/login' className="btn btn-active btn-accent">Sign In</Link> */}
       {
         user?.uid ?
-        <button onClick={logOut} className="btn btn-active btn-error">Sign out</button>
+        <button onClick={handleLogOut} className="btn btn-active btn-error">Sign out</button>
         :
         <>
         <Link to='/login' className="btn btn-active btn-accent">Sign In</Link>

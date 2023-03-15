@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Login = () => {
@@ -16,6 +16,7 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         form.reset();
+        
         const currentUser ={
             email: user.email
         }
