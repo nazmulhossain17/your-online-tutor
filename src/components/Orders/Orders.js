@@ -3,16 +3,27 @@ import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import OrdersDetails from './OrdersDetails';
 
 const Orders = () => {
-    const {user} = useContext(AuthContext);
+    const {user, logOut} = useContext(AuthContext);
     const [order, setOrder] = useState([]);
 
 
 
     useEffect(()=>{
-        fetch(`http://localhost:5001/orders?email=${user?.email}`)
-        .then(res => res.json())
-        .then(data => setOrder(data))
-    },[user?.email])
+        fetch(`http://localhost:5001/orders?email=${user?.email}`, {
+            headers: {
+                authorization: `Bearer ${localStorage.getItem('tutor-Token')}`
+            }
+        })
+        .then(res => {
+            if(res.status === 401 || res.status === 403){
+                return logOut();
+            }
+            return res.json()
+        })
+        .then(data => {
+            setOrder(data)
+        })
+    },[user?.email, logOut])
 
     const handleDelete = id =>{
         const proceed = window.confirm('Are you sure want to cancel this course?');

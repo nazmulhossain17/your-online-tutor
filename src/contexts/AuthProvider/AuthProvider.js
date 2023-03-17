@@ -27,6 +27,7 @@ const AuthProvider = ({children}) => {
     }
 
     const logOut = () =>{
+        localStorage.removeItem('tutor-Token');
         return signOut(auth);
     }
 
