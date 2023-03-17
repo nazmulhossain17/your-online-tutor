@@ -3,6 +3,7 @@ import Blog from "../../components/Blog/Blog";
 import About from "../../components/Body/About/About";
 import Checkout from "../../components/Checkout/Checkout";
 import Classes from "../../components/Classes/Classes";
+import ErrorPage from "../../components/ErrorPage/ErrorPage";
 import Home from "../../components/Home/Home";
 import Login from "../../components/Login/Login";
 import Orders from "../../components/Orders/Orders";
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
             {
                 path: '/blog',
                 element: <Blog></Blog>
+            },
+            {
+                path: '*',
+                element: <ErrorPage></ErrorPage>
             },
             {
                 path: '/login',

@@ -23,6 +23,7 @@ const Carosel = () => {
       <a href="#slide2" className="btn btn-circle">❯</a>
     </div>
   </div> 
+  
   <div id="slide2" className="carousel-item relative w-full">
     <img src="https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" className="w-full" alt=''/>
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

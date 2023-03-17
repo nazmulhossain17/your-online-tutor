@@ -4,10 +4,10 @@ const Hero = () => {
     return (
     <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
-    <img src="https://www.hollywoodreporter.com/wp-content/uploads/2019/10/asm32-h_2019.jpg?w=1296" className="max-w-sm rounded-lg shadow-2xl" alt=''/>
+    <img src="https://habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg" className="max-w-sm rounded-lg shadow-2xl" alt=''/>
     <div>
-      <h1 className="text-5xl font-bold">Box Office News!</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <h1 className="text-5xl font-bold">Learn From the Best</h1>
+      <p className="py-6">Choosing our courses you’ll receive a full package of educational materials including lectures, video trainings, books and practical tasks that provide a proper learning process.</p>
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>
