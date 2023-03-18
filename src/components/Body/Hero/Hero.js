@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Cards from './Cards';
 
 const Hero = () => {
     return (
@@ -8,9 +10,10 @@ const Hero = () => {
     <div>
       <h1 className="text-5xl font-bold">Learn From the Best</h1>
       <p className="py-6">Choosing our courses you’ll receive a full package of educational materials including lectures, video trainings, books and practical tasks that provide a proper learning process.</p>
-      <button className="btn btn-primary">Get Started</button>
+      <Link to='/login'><button className="btn btn-primary">Get Started</button></Link>
     </div>
   </div>
+  
 </div>
     );
 };

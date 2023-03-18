@@ -20,10 +20,10 @@ const Login = () => {
         const currentUser ={
             email: user.email
         }
-        console.log(currentUser);
+        // console.log(currentUser);
 
         // get jwt token
-        fetch('http://localhost:5001/jwt', {
+        fetch('https://your-online-tutor-server.vercel.app/jwt', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -32,7 +32,7 @@ const Login = () => {
         })
         .then(res => res.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
             localStorage.setItem('tutor-Token', data.token)
             navigate(from, {replace: true});
         })

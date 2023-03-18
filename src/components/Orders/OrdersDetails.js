@@ -5,7 +5,7 @@ const OrdersDetails = ({n, handleDelete}) => {
     const [orderService, setOrderService] = useState({})
     
     useEffect(()=>{
-        fetch(`http://localhost:5001/services/${service}`)
+        fetch(`https://your-online-tutor-server.vercel.app/services/${service}`)
         .then(res => res.json())
         .then()
     },[service])

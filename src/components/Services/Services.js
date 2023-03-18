@@ -4,7 +4,7 @@ import Classes from '../Classes/Classes';
 
 const Services = () => {
     const allData = useLoaderData();
-    console.log(allData)
+    // console.log(allData)
     return (
         <div className='grid grid-cols-3 gap-4 p-4'>
            {

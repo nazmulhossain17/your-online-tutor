@@ -9,7 +9,7 @@ const Orders = () => {
 
 
     useEffect(()=>{
-        fetch(`http://localhost:5001/orders?email=${user?.email}`, {
+        fetch(`https://your-online-tutor-server.vercel.app/orders?email=${user?.email}`, {
             headers: {
                 authorization: `Bearer ${localStorage.getItem('tutor-Token')}`
             }
@@ -28,7 +28,7 @@ const Orders = () => {
     const handleDelete = id =>{
         const proceed = window.confirm('Are you sure want to cancel this course?');
         if(proceed){
-            fetch(`http://localhost:5001/orders/${id}`,{
+            fetch(`https://your-online-tutor-server.vercel.app/orders/${id}`,{
                 method: 'DELETE'
             })
             .then(res => res.json())

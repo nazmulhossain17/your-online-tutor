@@ -24,7 +24,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/services',
-                loader: (()=> fetch('http://localhost:5001/services')),
+                loader: (()=> fetch('https://your-online-tutor-server.vercel.app/services')),
                 element: <Services></Services>
             },
             {
@@ -50,7 +50,7 @@ const router = createBrowserRouter([
             {
                 path: '/checkout/:id',
                 element: <PrivateRoute><Checkout></Checkout></PrivateRoute>,
-                loader: ({params}) => fetch(`http://localhost:5001/services/${params.id}`)
+                loader: ({params}) => fetch(`https://your-online-tutor-server.vercel.app/services/${params.id}`)
             },
             {
                 path: '/orders',
